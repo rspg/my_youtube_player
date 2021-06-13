@@ -1,0 +1,148 @@
+
+html{
+	overflow-x: hidden;
+	background-color: #181818;
+}
+
+.v-application--is-ltr .v-list-item__action:first-child, .v-application--is-ltr .v-list-item__icon:first-child {
+	margin-right: 16px;
+}
+
+.thumbnail {
+	border-color:#202020;
+	border-width: thin;
+	border-left-style: solid;
+	padding: 16px 16px 0 16px;
+}
+
+.thumbnail-items{
+	height: 100vh;
+}
+
+.thumbnail-toolbar{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.thumbnails-index{
+	display: block;
+	width:50px;
+	float:right;
+	text-align: right;
+}
+
+.playlist-header{
+	display:flex;
+	justify-content: left;
+	align-items: center;
+	height: 48px;
+	margin: 8px;
+	padding: 16px 16px 0 16px;
+}
+
+.video-player{
+	display:flex; 
+	left:50%; 
+	align-items:center; 
+	justify-content:center;
+	margin: 20px;
+}
+
+.video-details{
+	margin: 0px 16px
+}
+
+.video-title{
+	font-size:x-large;
+}
+
+.video-stats{
+	display: flex;
+	font-size: medium;
+	justify-content: center;
+	align-items: center;
+	vertical-align: middle;
+	height: 40px;
+	color:#aaaaaa;
+}
+
+.video-stats-text {
+	margin: 0px 8px;
+}
+
+.video-good{
+	margin-right: 20px;
+	display: inline-flex;
+}
+
+.video-bad{
+	margin-right: 20px;
+	display: inline-flex;
+}
+
+.video-description{
+	font-size: medium;
+	margin: 16px;
+	word-break: break-word;
+	white-space: pre-wrap;
+}
+
+.chat-replay{
+	position:absolute;
+	width:100%;
+	max-width:100%;
+	height:80px;
+	top:-78px;
+	left:0px;
+	padding: 16px 16px 16px 0px;
+}
+
+.chat-replay-button{
+	display:flex;
+	margin:8px;
+}
+
+.chat-replay-list{
+	width:100%;
+	overflow-x: hidden;
+}
+
+.chat-item-content{
+
+}
+
+.chat-item-timestamp{
+	font-size: small;
+	color:#aaaaaa;
+	margin: 4px;
+}
+
+.chat-item-author{
+	font-size: middle;
+	color:#aaaaaa;
+	margin: 4px;
+}
+
+/* スクロールの幅の設定 */
+::-webkit-scrollbar {
+	width: 10px;
+	height: 10px;
+}
+
+/* スクロールの背景の設定 */
+::-webkit-scrollbar-track {
+	border-radius: 5px;
+	box-shadow: 0 0 2px #aaa inset;
+	background: #181818;
+}
+  
+/* スクロールのつまみ部分の設定 */
+::-webkit-scrollbar-thumb {
+	border-radius: 5px;
+	background: #aaaaaa;
+}
+
+::-webkit-scrollbar-corner {
+    background: rgba(0,0,0,0);
+}
